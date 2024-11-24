@@ -1,0 +1,32 @@
+[
+  {
+    "img": "images/testimonials/testi1.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab nemo, ratione ducimus fuga tempora illo, voluptatibus, ullam debitis delectus animi numquam quod quibusdam voluptas! Tempora fuga rem deserunt delectus.",
+    "name": "Mohamed Ahmed",
+    "job": "CEO of Google"
+  },
+  {
+    "img": "images/testimonials/testi2.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab nemo, ratione ducimus fuga tempora illo, voluptatibus, ullam debitis delectus animi numquam quod quibusdam voluptas! Tempora fuga rem deserunt delectus.",
+    "name": "AbouZeid Salah",
+    "job": "CEO of Apple"
+  },
+  {
+    "img": "images/testimonials/testi3.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab nemo, ratione ducimus fuga tempora illo, voluptatibus, ullam debitis delectus animi numquam quod quibusdam voluptas! Tempora fuga rem deserunt delectus.",
+    "name": "Abdulrahman Mousa",
+    "job": "CEO of Amazon"
+  },
+  {
+    "img": "images/testimonials/testi4.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab nemo, ratione ducimus fuga tempora illo, voluptatibus, ullam debitis delectus animi numquam quod quibusdam voluptas! Tempora fuga rem deserunt delectus.",
+    "name": "Ibraheem Hadad",
+    "job": "CEO of Microsoft"
+  },
+  {
+    "img": "images/testimonials/testi5.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab nemo, ratione ducimus fuga tempora illo, voluptatibus, ullam debitis delectus animi numquam quod quibusdam voluptas! Tempora fuga rem deserunt delectus.",
+    "name": "Youssef",
+    "job": "CEO of Tesla"
+  }
+]

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bed Rooms</title>
+  </head>
+  <body>
+    <div class="socials py-2">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="icons d-flex justify-content-between align-items-center">
+          <span class="d-block me-2">Follow Us</span>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p class="m-0 d-none d-md-block">
+          <a href="account.html" class="text-white text-decoration-none"
+            >Sign up get 20% off for all collection</a
+          >
+        </p>
+        <div class="connect">
+          <i><i class="fa-solid fa-phone-volume"></i></i>
+          1 (100) 234-5648
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo.png" style="width: 100px" alt="not found"
+        /></a>
+        <!-- toggle btn -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- actions -->
+        <div
+          class="order-3 actions d-flex justify-content-center align-items-center gap-4"
+        >
+          <a class="wish position-relative" href="wish.html"
+            ><i class="fa-solid fa-heart"></i>
+            <span
+              id="favorite-count"
+              class="position-absolute wish-badge top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+              0
+            </span>
+          </a>
+          <a class="cart position-relative" href="cart.html"
+            ><i class="fa-solid fa-cart-shopping"></i>
+            <span
+              id="cart-count"
+              class="position-absolute cart-badge top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            >
+              0
+            </span></a
+          >
+          <a class="user" href="account.html"
+            ><i class="fa-solid fa-circle-user"></i
+          ></a>
+        </div>
+
+        <!-- sidebar -->
+        <div
+          class="sidebar offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- sidebar header -->
+          <div class="offcanvas-header border-bottom">
+            <a href="#"
+              ><img src="images/Logo2.png" style="width: 100px" alt="not found"
+            /></a>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="box">
+              <input type="text" placeholder="Search for Products" />
+              <a href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+            <ul class="navbar-nav justify-content-end text-center pe-3 m-auto">
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link active text-center fw-bold"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle fw-bold"
+                  href=""
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="categories.html"
+                      >All Products</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="bed-room.html">Bed Rooms</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="dining-room.html"
+                      >Dining Rooms</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kitchen.html">Kitchen</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="workspace.html"
+                      >Workspace Rooms</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="living-room.html"
+                      >Living Rooms</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link text-center fw-bold"
+                  aria-current="page"
+                  href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link text-center fw-bold"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- back to to button -->
+    <button id="back-to-top-btn"><i class="fas fa-arrow-up"></i></button>
+    <!-- alert for adding the products -->
+    <div
+      id="alert-box"
+      style="
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(5, 171, 190);
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 9999;
+      "
+    >
+      <span id="alert-message"></span>
+    </div>
+    <!-- start bed rooms -->
+    <div class="all-products bg-white py-5">
+      <div class="container">
+        <div class="image">
+          <img
+            class="img-fluid"
+            src="images/all-products/all-pr01.jpg"
+            alt="all-pr01"
+          />
+        </div>
+        <h2 class="my-3">Bed Rooms</h2>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item" aria-current="page">
+              <a href="categories.html">All Products</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Bed Rooms
+            </li>
+          </ol>
+        </nav>
+        <div class="row" id="bedrooms"></div>
+      </div>
+      <a href="index.html" class="back-to-shop text-decoration-none m-auto"
+        >Back to Shop</a
+      >
+    </div>
+    <!-- end categories -->
+
+    <!-- start footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="f-logo">
+              <img src="images/logo.png" alt="not found" style="width: 150px" />
+              <div class="f-icons my-3">
+                <a class="text-decoration-none" href="#"
+                  ><i class="fa-brands fa-instagram me-2"></i
+                ></a>
+                <a class="text-decoration-none" href="#"
+                  ><i class="fa-brands fa-facebook-f me-2"></i
+                ></a>
+                <a class="text-decoration-none" href="#"
+                  ><i class="fa-brands fa-linkedin me-2"></i
+                ></a>
+                <a class="text-decoration-none" href="#"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </div>
+              <div class="address">
+                <h4 class="fw-bold">Address</h4>
+                <p>+ 123 654 987</p>
+                <p>877 Minia</p>
+                <p>14568, EG</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="f-account">
+              <h4 class="fw-bold">My Account</h4>
+              <ul class="list-unstyled mt-4">
+                <li><a class="text-decoration-none" href="#">Sign in</a></li>
+                <li class="py-2">
+                  <a class="text-decoration-none" href="#">Register</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#">Order status</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="f-help">
+              <h4 class="fw-bold">Help</h4>
+              <ul class="list-unstyled mt-4">
+                <li><a class="text-decoration-none" href="#">Shipping</a></li>
+                <li class="py-2">
+                  <a class="text-decoration-none" href="#">Returns</a>
+                </li>
+                <li><a class="text-decoration-none" href="#">Sizing</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="f-shop">
+              <h4 class="fw-bold">Shop</h4>
+              <ul class="list-unstyled mt-4">
+                <li class="mt-3">
+                  <a class="text-decoration-none" href="#">All Products</a>
+                </li>
+                <li class="py-2">
+                  <a class="text-decoration-none" href="#">Bedroom</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#">Dinning Room</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="f-legal">
+              <h4 class="fw-bold">Legal Stuff</h4>
+              <ul class="list-unstyled mt-4">
+                <li>
+                  <a class="text-decoration-none" href="#"
+                    >Shipping & Delivery</a
+                  >
+                </li>
+                <li class="py-2">
+                  <a class="text-decoration-none" href="#"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#">Privacy & Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="copyright mt-5 text-center text-lg-start">
+            <p>
+              Copyright <i class="fa-regular fa-copyright"></i> 2024 INWOOD. All
+              Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bed-room.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 29,
+    "img": "images/popular-products/pop-prod01.png",
+    "title": "product 1",
+    "desc": "lorem",
+    "price": "$123"
+  },
+  {
+    "id": 30,
+    "img": "images/popular-products/pop-prod02.png",
+    "title": "product 2",
+    "desc": "lorem",
+    "price": "$555"
+  },
+  {
+    "id": 31,
+    "img": "images/popular-products/pop-prod03.png",
+    "title": "product 3",
+    "desc": "lorem",
+    "price": "$199"
+  },
+  {
+    "id": 32,
+    "img": "images/popular-products/pop-prod04.png",
+    "title": "product 4",
+    "desc": "lorem",
+    "price": "$103"
+  },
+  {
+    "id": 33,
+    "img": "images/popular-products/pop-prod05.png",
+    "title": "product 5",
+    "desc": "lorem",
+    "price": "$1283"
+  },
+  {
+    "id": 34,
+    "img": "images/popular-products/pop-prod06.png",
+    "title": "product 6",
+    "desc": "lorem",
+    "price": "$123"
+  },
+  {
+    "id": 35,
+    "img": "images/popular-products/pop-prod07.png",
+    "title": "product 7",
+    "desc": "lorem",
+    "price": "$555"
+  },
+  {
+    "id": 36,
+    "img": "images/popular-products/pop-prod08.png",
+    "title": "product 8",
+    "desc": "lorem",
+    "price": "$199"
+  },
+  {
+    "id": 37,
+    "img": "images/popular-products/pop-prod09.png",
+    "title": "product 9",
+    "desc": "lorem",
+    "price": "$103"
+  },
+  {
+    "id": 38,
+    "img": "images/popular-products/pop-prod10.png",
+    "title": "product 10",
+    "desc": "lorem",
+    "price": "$1283"
+  }
+]
